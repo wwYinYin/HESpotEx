@@ -16,7 +16,7 @@ Before running the tutorial, you need to download the weight file of [Quilt-Net]
   ```
   cellpose_calculate_nuclir.ipynb
   ```
-
+* We recommend running the Cellpose script first, as this step is time-consuming. It takes about an hour to process a 20,000 x 20,000 H&E image.
 ### Run
 ```
 tutorials_ST1K.ipynb
