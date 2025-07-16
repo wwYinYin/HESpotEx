@@ -6,9 +6,9 @@ Whole-slide histopathological images (WSIs) constitute a fundamental approach in
 ```
 pip install -r requirements.txt
 ```
-Before running the tutorial, you need to download the weight file of [Quilt-Net](https://huggingface.co/wisdomik/QuiltNet-B-32/blob/main/open_clip_pytorch_model.bin) and put it in the folder ./model/QuiltNet-B-32/.
 
 ## Tutorial
+Before running the tutorial, you need to download the weight file of [Quilt-Net](https://huggingface.co/wisdomik/QuiltNet-B-32/blob/main/open_clip_pytorch_model.bin) and put it in the folder ./model/QuiltNet-B-32/.
 ### Input files
 * A spatial transcriptomics (ST) data with spot space coordinates (.h5ad)
 * A high-resolution H&E-stained image corresponding to the ST data (.jpg, .tif, .png)
