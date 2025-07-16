@@ -6,7 +6,7 @@ Whole-slide histopathological images (WSIs) constitute a fundamental approach in
 ```
 pip install -r requirements.txt
 ```
-
+Normally, this installation takes about 10 to 20 minutes.
 ## Tutorial
 Before running the tutorial, you need to download the weight file of [Quilt-Net](https://huggingface.co/wisdomik/QuiltNet-B-32/blob/main/open_clip_pytorch_model.bin) and put it in the folder ./model/QuiltNet-B-32/.
 ### Input files
