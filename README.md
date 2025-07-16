@@ -17,6 +17,9 @@ Before running the tutorial, you need to download the weight file of [Quilt-Net]
   cellpose_calculate_nuclir.ipynb
   ```
 * We recommend running the Cellpose script first, as this step is time-consuming. It takes about an hour to process a 20,000 x 20,000 H&E image.
+### Output files
+* my_pre.h5ad: Predicted expression profile
+* my_gt.h5ad: Ground truth after normalization and high-variable gene filtering
 ### Run
 This is a leave-one-out cross-validation script with max_steps=30. This sample data has 10 samples and 42212 spots in total. It takes about 15 hours to run on an 80G A100. You can save time by setting a smaller max_steps value. Sample data comes from [HEST-1K](https://github.com/mahmoodlab/hest/?tab=readme-ov-file)
 ```
