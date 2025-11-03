@@ -7,6 +7,12 @@ Whole-slide histopathological images (WSIs) constitute a fundamental approach in
 pip install -r requirements.txt
 ```
 Normally, this installation takes about 10 to 20 minutes.
+
+## Data Availability
+The publicly available expression datasets analyzed in this work are available in previous studies. 
+* The HER2+ dataset can be obtained from [her2st](https://github.com/almaan/her2st/)
+* The external breast cancer validation cohort can be available at [breast cancer](https://www.spatialresearch.org/resources-published-datasets/doi-10-1126science-aaf2403/)
+* The cSCC dataset is available from the Gene Expression Omnibus (GEO) with accession numbers [GSE144240](https://www.ncbi.xyz/geo/query/acc.cgi?acc=GSE144240)
 ## Tutorial
 Before running the tutorial, you need to download the weight file of [Quilt-Net](https://huggingface.co/wisdomik/QuiltNet-B-32/blob/main/open_clip_pytorch_model.bin) and put it in the folder ./model/QuiltNet-B-32/.
 ### Input files
