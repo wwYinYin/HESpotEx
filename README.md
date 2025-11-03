@@ -13,6 +13,11 @@ The publicly available expression datasets analyzed in this work are available i
 * The HER2+ dataset can be obtained from [her2st](https://github.com/almaan/her2st/)
 * The external breast cancer validation cohort can be available at [breast cancer](https://www.spatialresearch.org/resources-published-datasets/doi-10-1126science-aaf2403/)
 * The cSCC dataset is available from the Gene Expression Omnibus (GEO) with accession numbers [GSE144240](https://www.ncbi.xyz/geo/query/acc.cgi?acc=GSE144240)
+* The TCGA-BRCA datasets are obtained from the National Cancer Institute Genomic Data Commons Portal [TCGA-BRCA](https://portal.gdc.cancer.gov/)
+* The Xenium colorectal cancer dataset is available from the 10x Visium platform [Xenium CRC](https://www.10xgenomics.com/products/visium-hd-spatial-gene-expression/dataset-human-crc)
+* The Visium HD mouse small intestine is available from the 10x Visium HD platform [Visium HD](https://www.10xgenomics.com/datasets/visium-hd-cytassist-gene-expression-libraries-of-mouse-intestine)
+* The Human cancerous and healthy colon tissues ST datasets is available from [HEST-1k](https://huggingface.co/datasets/MahmoodLab/hest)
+* The non-communicable inflammatory skin diseases (ncISDs) dataset is available from the Gene Expression Omnibus (GEO) with accession numbers [GSE206391](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE206391)
 ## Tutorial
 Before running the tutorial, you need to download the weight file of [Quilt-Net](https://huggingface.co/wisdomik/QuiltNet-B-32/blob/main/open_clip_pytorch_model.bin) and put it in the folder ./model/QuiltNet-B-32/.
 ### Input files
