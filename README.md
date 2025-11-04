@@ -28,6 +28,41 @@ Before running the tutorial, you need to download the weight file of [Quilt-Net]
   cellpose_calculate_nuclir.ipynb
   ```
 * We recommend running the Cellpose script first, as this step is time-consuming. It takes about an hour to process a 20,000 x 20,000 H&E image.
+* The data file structure of this project should be organized as follows:
+```
+data/
+├── HEST
+│   ├── COLON-CANCER_Xenium
+│   │   ├── dw-ll_ucoco_384.onnx
+│   │   └── yolox_l.onnx
+│   ├── Animation
+│   │   └── checkpoint-26500
+│   │       ├── pose_net-26500.pth
+│   │       ├── face_encoder-26500.pth
+│   │       └── unet-26500.pth
+│   ├── SVD
+│   │   ├── feature_extractor
+│   │   ├── image_encoder
+│   │   ├── scheduler
+│   │   ├── unet
+│   │   ├── vae
+│   │   ├── model_index.json
+│   │   ├── svd_xt.safetensors
+│   │   └── svd_xt_image_decoder.safetensors
+│   └── inference.zip
+├── models
+│   │   └── antelopev2
+│   │       ├── 1k3d68.onnx
+│   │       ├── 2d106det.onnx
+│   │       ├── genderage.onnx
+│   │       ├── glintr100.onnx
+│   │       └── scrfd_10g_bnkps.onnx
+├── command_basic_infer.sh
+├── face_mask_extraction.py
+├── face_mask_extraction_multi.py
+├── inference_basic.py
+├── requirement.txt
+```
 ### Output files
 * my_pre.h5ad: Predicted expression profile
 * my_gt.h5ad: Ground truth after normalization and high-variable gene filtering
