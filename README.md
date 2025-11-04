@@ -29,6 +29,7 @@ Before running the tutorial, you need to download the weight file of [Quilt-Net]
   ```
 * We recommend running the Cellpose script first, as this step is time-consuming. It takes about an hour to process a 20,000 x 20,000 H&E image.
 * The data file structure of this project should be organized as follows:
+
 ```
 data/
 ├── HEST
