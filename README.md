@@ -33,36 +33,18 @@ Before running the tutorial, you need to download the weight file of [Quilt-Net]
 ```
 data/
 ├── HEST
+│   ├── COLON-CANCER-HEALTHY
+│   │   ├── TENX89.h5ad
+│   │   ├── TENX89.tif
+│   │   ├── TENX90.h5ad
+│   │   ├── TENX90.tif
+          ...
+│   │   ├── TENX92.h5ad
+│   │   └── TENX92.tif
 │   ├── COLON-CANCER_Xenium
-│   │   ├── dw-ll_ucoco_384.onnx
-│   │   └── yolox_l.onnx
-│   ├── Animation
-│   │   └── checkpoint-26500
-│   │       ├── pose_net-26500.pth
-│   │       ├── face_encoder-26500.pth
-│   │       └── unet-26500.pth
-│   ├── SVD
-│   │   ├── feature_extractor
-│   │   ├── image_encoder
-│   │   ├── scheduler
-│   │   ├── unet
-│   │   ├── vae
-│   │   ├── model_index.json
-│   │   ├── svd_xt.safetensors
-│   │   └── svd_xt_image_decoder.safetensors
-│   └── inference.zip
-├── models
-│   │   └── antelopev2
-│   │       ├── 1k3d68.onnx
-│   │       ├── 2d106det.onnx
-│   │       ├── genderage.onnx
-│   │       ├── glintr100.onnx
-│   │       └── scrfd_10g_bnkps.onnx
-├── command_basic_infer.sh
-├── face_mask_extraction.py
-├── face_mask_extraction_multi.py
-├── inference_basic.py
-├── requirement.txt
+│   ├── SKIN-AD
+        ...
+│   └── SKIN-LP
 ```
 ### Output files
 * my_pre.h5ad: Predicted expression profile
