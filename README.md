@@ -36,11 +36,14 @@ data/
 │   ├── COLON-CANCER-HEALTHY
 │   │   ├── TENX89.h5ad
 │   │   ├── TENX89.tif
+│   │   ├── TENX89.npy
 │   │   ├── TENX90.h5ad
 │   │   ├── TENX90.tif
+│   │   ├── TENX90.npy
           ...
 │   │   ├── TENX92.h5ad
-│   │   └── TENX92.tif
+│   │   ├── TENX92.tif
+│   │   └── TENX92.npy
 │   ├── COLON-CANCER_Xenium
 │   ├── SKIN-AD
         ...
@@ -54,3 +57,5 @@ This is a leave-one-out cross-validation script with max_steps=30. This sample d
 ```
 tutorials_ST1K.ipynb
 ```
+## Baseline
+The code for the other methods compared in the article is located in the ./Compared_Methods/ folder.
