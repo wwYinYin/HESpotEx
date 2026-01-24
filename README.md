@@ -19,6 +19,7 @@ The publicly available expression datasets analyzed in this work are available i
 * The Visium HD mouse small intestine is available from the 10x Visium HD platform [Visium HD](https://www.10xgenomics.com/datasets/visium-hd-cytassist-gene-expression-libraries-of-mouse-intestine)
 * The Human cancerous and healthy colon tissues ST datasets is available from [HEST-1k](https://huggingface.co/datasets/MahmoodLab/hest)
 * The non-communicable inflammatory skin diseases (ncISDs) dataset is available from the Gene Expression Omnibus (GEO) with accession numbers [GSE206391](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE206391)
+
 Meanwhile, we have uploaded the processed datasets to the Zenodo platform [HESpotEx1](https://zenodo.org/records/18281197) and [HESpotEx2](https://zenodo.org/records/18281215). These datasets can be directly used to run the code.
 ## Tutorial
 Before running the tutorial, you need to download the weight file of [Quilt-Net](https://huggingface.co/wisdomik/QuiltNet-B-32/blob/main/open_clip_pytorch_model.bin) and put it in the folder ./model/QuiltNet-B-32/.
