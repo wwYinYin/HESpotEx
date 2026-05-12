@@ -61,5 +61,4 @@ This is a leave-one-out cross-validation script with max_steps=30. This sample d
 tutorials_ST1K.ipynb
 ```
 For other datasets mentioned in the article, simply replace the data input section in the tutorials with the folder containing the other datasets.
-## Baseline
-The code for the other methods compared in the article is located in the ./Compared_Methods/ folder.
+
